@@ -1,0 +1,52 @@
+---
+title: 'LOGM 634 - Homework Set #2'
+subtitle: 'Due `r format(as.POSIXct.Date(17176+4), "%d %B %Y")`'
+output:
+  word_document:
+    reference_docx: template/mystyles.docx
+---
+
+```{r, echo=FALSE}
+q = 0
+```
+
+# Chapter 4 – Exercises (50 Points)
+
+`r q=q+1;q`) From the Ebeling text - Exercise 4.1
+
+`r q=q+1;q`) From the Ebeling text - Exercise 4.7
+
+`r q=q+1;q`) From the Ebeling text - Exercise 4.11
+
+`r q=q+1;q`) From the Ebeling text - Exercise 4.16
+
+`r q=q+1;q`) From the Ebeling text - Exercise 4.20
+
+# Chapter 5 – Exercises (30 Points)
+
+`r q=q+1;q`) From the Ebeling text - Exercise 5.4
+
+`r q=q+1;q`) From the Ebeling text - Exercise 5.8
+
+`r q=q+1;q`) From the Ebeling text - Exercise 5.9
+
+#####
+
+# Summary Exercise (20 Points)
+
+`r q=q+1;q`) Use the system relational block diagram shown in Figure 1 and the component distributions to answer the following questions:
+
+    a. What is the probability of system failure within 1200 hrs?
+
+    b. What is the probability of system failure within 200 hrs, given it has lasted for 1000 hours?
+
+![Reliability Block Diagram for Exercise `r q`](images/block-diagram.gif)
+
+$$
+\begin{aligned}
+\mbox{Component A} &\sim EXP(\theta = 1/\lambda = 1250 \mbox{ hrs})\\
+\mbox{Component B} &\sim NOR(\mu = 1500 \mbox{ hrs},\quad \sigma = 325)\\
+\mbox{Component C} &\sim WEIBULL(\theta = 1300 \mbox{ hrs},\quad \beta = 3.5)\\
+\mbox{Component D} &\sim EXP(\theta = 1/\lambda = 1500 \mbox{ hrs})
+\end{aligned}
+$$

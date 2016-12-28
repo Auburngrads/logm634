@@ -1,0 +1,45 @@
+---
+title: 'LOGM 634 - Homework Set #1'
+subtitle: 'Due `r format(as.POSIXct.Date(17176+2), "%d %B %Y")`'
+output:
+  word_document:
+    reference_docx: template/mystyles.docx
+---
+
+```{r, echo=FALSE}
+q = 0
+```
+
+# Chapter 2 – Exercises (40 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 2.4
+
+`r q=q+1;q`. From the Ebeling text - Exercise 2.5
+
+`r q=q+1;q`. From the Ebeling text - Exercise 2.11
+
+`r q=q+1;q`. From the Ebeling text - Exercise 2.13
+
+`r q=q+1;q`. From the Ebeling text - Exercise 2.19
+
+# Chapter 3 – Exercises (40 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 3.6
+
+`r q=q+1;q`. From the Ebeling text - Exercise 3.7
+
+`r q=q+1;q`. From the Ebeling text - Exercise 3.13
+
+`r q=q+1;q`. From the Ebeling text - Exercise 3.19
+
+`r q=q+1;q`. From the Ebeling text - Exercise 3.26
+
+# Summary Exercise (20 Points)
+
+`r q=q+1;q`. A relay circuit has an average failure rate of 4 every 3 years.  The circuit’s failure times follow an exponential distribution.
+
+    a.	What is the probability that the circuit will survive for one year without failure?
+
+    b.	What is the probability that there will be more than two failures in the first year?
+
+    c.	What is the expected number of failures per year?

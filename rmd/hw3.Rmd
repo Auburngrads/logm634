@@ -1,0 +1,30 @@
+---
+title: 'LOGM 634 - Homework Set #3'
+subtitle: 'Due `r format(as.POSIXct.Date(17176+7), "%d %B %Y")`'
+output:
+  word_document:
+    reference_docx: template/mystyles.docx
+---
+
+```{r, echo=FALSE}
+q = 0
+```
+
+# Chapter 6 – Exercises (30 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 6.3
+
+`r q=q+1;q`. From the Ebeling text - Exercise 6.8
+
+`r q=q+1;q`. From the Ebeling text - Exercise 6.14
+
+# Chapter 7 – Exercises (40 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 7.5 (Use Eqn 7.15)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 7.13 (Use Table 7.2 for constant strength)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 7.15 (Use Eqn. 7.11)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 7.24 (Use Table 7.2 - stress is x, strength is y)
+

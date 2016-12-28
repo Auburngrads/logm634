@@ -1,0 +1,33 @@
+---
+title: 'LOGM 634 - Homework Set #4'
+subtitle: 'Due `r format(as.POSIXct.Date(17176+9), "%d %B %Y")`'
+output:
+  word_document:
+    reference_docx: template/mystyles.docx
+---
+
+```{r, echo=FALSE}
+q = 0
+```
+
+# Chapter 8 – Exercises (25 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 8.2
+
+`r q=q+1;q`. From the Ebeling text - Exercise 8.14
+
+# Chapter 9 – Exercises (25 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 9.2
+
+`r q=q+1;q`. From the Ebeling text - Exercise 9.4
+
+# Chapter 10 – Exercises (25 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 10.4
+
+# Chapter 11 – Exercises (25 Points)
+
+`r q=q+1;q`. From the Ebeling text - Exercise 11.1
+
+`r q=q+1;q`. From the Ebeling text - Exercise 11.5
